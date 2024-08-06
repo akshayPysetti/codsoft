@@ -1,0 +1,241 @@
+
+.para{
+    color: #333;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background: #f4f4f4;
+    color: #333;
+}
+
+nav {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+.name{
+    padding-left:10px ;
+    font-family: cursive;
+    font-style: italic;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header {
+    background: lightblue;
+    padding: 2rem;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+header .social-links a {
+    display: inline-block;
+    margin: 0 0.5rem;
+    text-decoration: none;
+    color: #333;
+}
+
+header .social-links a i {
+    margin-right: 0.5rem;
+}
+
+header .header-buttons a {
+    display: inline-block;
+    margin: 1rem 0.5rem;
+    padding: 0.5rem 1rem;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+section {
+    padding: 2rem;
+    background: lightblue;
+    margin-bottom: 1rem;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+#skills ul,
+#achievements ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+#skills ul li,
+#achievements ul li {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    border-radius: 5px;
+}
+
+
+
+#contact p {
+    margin: 0.5rem 0;
+    text-align: center;
+}
+
+#contact a {
+    color: #333;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #333;
+    color: #fff;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: lightblue;
+}
+#skills {
+    background:lightblue; 
+    color: #333; 
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; 
+    justify-content: center; 
+}
+
+.skill-item {
+    background: #f9f9f9; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+    padding: 20px;
+    width: 100%;
+    max-width: 250px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.skill-item:hover {
+    transform: scale(1.05); 
+}
+
+.skill-item i {
+    font-size: 3em; 
+    color: #004d99; 
+    margin-bottom: 10px;
+}
+
+.skill-item h3 {
+    margin: 10px 0;
+    font-size: 1.2em;
+    color: #004d99; 
+}
+
+.skill-item p {
+    font-size: 0.9em;
+    line-height: 1.5;
+    color: #666; 
+}
+#projects {
+    background: lightblue; 
+    color: #333;
+    padding: 40px 0;
+}
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; 
+    justify-content: center; 
+}
+
+.projects-card {
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+    overflow: hidden;
+    width: 100%;
+    max-width: 300px;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: transform 0.3s;
+}
+
+.projects-card:hover {
+    transform: scale(1.05); 
+}
+
+.project-img-small {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.projects-name {
+    margin: 15px 0 10px;
+    font-size: 1.2em;
+    color: #004d99; 
+}
+
+.projects-description {
+    font-size: 0.9em;
+    line-height: 1.5;
+    color: #666;
+}
+
+.projects-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #004d99; 
+    color: #ffffff; 
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s, color 0.3s;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+.projects-button:hover {
+    background: #003d7a; 
+    color: #ffffff;
+}
